@@ -1,0 +1,40 @@
+.stories{
+    color: $color-white;
+    text-align: right;
+    flex-direction: column;
+    height: 130vh;
+    .storiesBody{
+        height: 70%;
+        width: 100%;
+        width: 100%;
+        position: relative;
+        .imgCover{
+            height: 80%;
+            width: 25%;
+            top: 10%;
+            position: absolute;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .img1{
+            left: 20%;
+            transform: rotateZ(5deg);
+            height: 75%;
+            width: 20%;
+        }
+        .img2{
+            left: 40%;
+            z-index: 3;
+        }
+        .img3{
+            left: 65%;
+            transform: rotateZ(-5deg);
+            height: 75%;
+            width: 20%;
+        }
+    }
+}
